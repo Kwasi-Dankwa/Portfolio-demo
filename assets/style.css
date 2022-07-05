@@ -1,5 +1,5 @@
 /*Root variable to reduce redundacy*/
-:root{
+:root {
   --lightblue: lightblue;
   --borderblue: #39a6b2;
 }
@@ -13,11 +13,12 @@
 section {
   padding: 30px;
 }
+
 /* I added this to prevent horizontal scrolling*/
-html{
+html {
   overflow-x: hidden;
   max-width: 100%;
-  
+
 }
 
 body {
@@ -197,6 +198,15 @@ figcaption {
   grid-row-end: 5;
 }
 
+/* style for latest project */
+.box_item--4 {
+  grid-column-start: 3;
+  grid-column-end: 4;
+  grid-row-start: 3;
+  grid-row-end: 4;
+
+}
+
 .vertical-border3 {
   border-right: 3px solid var(--borderblue);
   height: 100px;
@@ -271,8 +281,8 @@ figcaption {
     text-align: right;
     font-weight: bold;
   }
-  
-  
+
+
   .box {
     width: 90%;
   }
@@ -285,7 +295,7 @@ figcaption {
     height: 280px;
   }
 
-  
+
 
   .contact-info ul li {
     width: 100%;
@@ -298,7 +308,7 @@ figcaption {
     font-size: 18px;
     font-weight: bold;
     line-height: 2;
-    
+
   }
 
   .vertical-border3 {
