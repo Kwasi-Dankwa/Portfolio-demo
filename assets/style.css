@@ -208,6 +208,18 @@ figcaption {
 
 }
 
+.box_item--5 {
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 4;
+  grid-row-end: 5;
+  position: relative;
+
+}
+
+
+
+
 .vertical-border3 {
   border-right: 3px solid var(--borderblue);
   height: 100px;
